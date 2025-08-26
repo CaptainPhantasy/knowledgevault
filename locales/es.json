@@ -1,0 +1,179 @@
+{
+  "app": {
+    "title": "KnowledgeVault",
+    "subtitle": "Preserva el Conocimiento Para Siempre",
+    "loading": "Inicializando KnowledgeVault...",
+    "description": "Plataforma de código abierto para preservar conocimiento"
+  },
+  "nav": {
+    "create": "Crear",
+    "search": "Buscar",
+    "explore": "Explorar",
+    "export": "Exportar",
+    "install": "Instalar",
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "views": {
+    "create": {
+      "title": "Crear Nueva Entrada de Conocimiento",
+      "subtitle": "Captura y preserva conocimiento en múltiples formatos"
+    },
+    "search": {
+      "title": "Buscar Conocimiento",
+      "subtitle": "Encuentra tu conocimiento preservado rápidamente"
+    },
+    "explore": {
+      "title": "Explorar Conocimiento",
+      "subtitle": "Descubre tu conocimiento geográfica y cronológicamente"
+    },
+    "export": {
+      "title": "Exportar Conocimiento",
+      "subtitle": "Respalda y comparte tu conocimiento en varios formatos"
+    }
+  },
+  "form": {
+    "title": "Título",
+    "titlePlaceholder": "Ingresa un título descriptivo",
+    "content": "Contenido",
+    "contentPlaceholder": "Ingresa el contenido de tu conocimiento...",
+    "category": "Categoría",
+    "categoryPlaceholder": "Seleccionar categoría",
+    "language": "Idioma",
+    "tags": "Etiquetas",
+    "tagsPlaceholder": "Ingresa etiquetas separadas por comas",
+    "tagsHelp": "Usa etiquetas para hacer tu conocimiento más fácil de encontrar",
+    "save": "Guardar Conocimiento",
+    "saveDraft": "Guardar Borrador",
+    "required": "Campo requerido",
+    "charCount": "{{count}} / {{max}}"
+  },
+  "categories": {
+    "": "Seleccionar categoría",
+    "personal": "Personal",
+    "education": "Educación",
+    "research": "Investigación",
+    "tutorial": "Tutorial",
+    "documentation": "Documentación",
+    "recipe": "Receta",
+    "memory": "Memoria",
+    "other": "Otro"
+  },
+  "languages": {
+    "": "Todos los Idiomas",
+    "en": "Inglés",
+    "es": "Español",
+    "zh": "Chino",
+    "ar": "Árabe",
+    "hi": "Hindi"
+  },
+  "media": {
+    "attachments": "Adjuntos",
+    "addImage": "Agregar Imagen",
+    "recordAudio": "Grabar Audio",
+    "addLocation": "Agregar Ubicación",
+    "generateQR": "Generar QR",
+    "detectLocation": "Detectar Ubicación Actual",
+    "searchLocation": "Buscar una ubicación..."
+  },
+  "search": {
+    "placeholder": "Busca tu conocimiento...",
+    "filters": "Filtros",
+    "allCategories": "Todas las Categorías",
+    "allLanguages": "Todos los Idiomas",
+    "fromDate": "Desde fecha",
+    "toDate": "Hasta fecha",
+    "noResults": "No se encontraron entradas de conocimiento que coincidan con tu búsqueda.",
+    "createFirst": "Crear Tu Primera Entrada"
+  },
+  "explore": {
+    "mapView": "Vista de Mapa",
+    "timeline": "Línea de Tiempo",
+    "statistics": "Estadísticas",
+    "totalEntries": "Total de Entradas",
+    "totalCategories": "Categorías",
+    "totalLanguages": "Idiomas",
+    "thisMonth": "Este Mes"
+  },
+  "export": {
+    "jsonTitle": "Exportar JSON",
+    "jsonDescription": "Respaldo completo de todos tus datos",
+    "csvTitle": "Exportar CSV",
+    "csvDescription": "Formato compatible con hojas de cálculo",
+    "htmlTitle": "Exportar HTML",
+    "htmlDescription": "Sitio web estático con todo tu conocimiento",
+    "ipfsTitle": "Almacenamiento IPFS",
+    "ipfsDescription": "Almacenamiento descentralizado y permanente",
+    "qrTitle": "Código QR",
+    "qrDescription": "Comparte entradas específicas mediante código QR",
+    "importTitle": "Importar Conocimiento",
+    "selectEntry": "Selecciona una entrada...",
+    "importFile": "Importar Archivo JSON",
+    "storeIPFS": "Almacenar en IPFS"
+  },
+  "status": {
+    "online": "En línea",
+    "offline": "Fuera de línea",
+    "syncing": "Sincronizando",
+    "saved": "Guardado",
+    "draft": "Borrador"
+  },
+  "actions": {
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "export": "Exportar",
+    "search": "Buscar",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior"
+  },
+  "messages": {
+    "saved": "¡Conocimiento guardado exitosamente!",
+    "updated": "¡Conocimiento actualizado exitosamente!",
+    "deleted": "Conocimiento eliminado",
+    "draftSaved": "Borrador guardado automáticamente",
+    "error": "Ocurrió un error",
+    "storageError": "Error de almacenamiento: {{message}}",
+    "validationError": "Por favor corrige: {{errors}}",
+    "browserNotSupported": "Navegador no compatible. Por favor usa un navegador moderno.",
+    "initializationFailed": "Falló la inicialización de la aplicación. Por favor actualiza la página.",
+    "exportSuccess": "¡Exportación completada exitosamente!",
+    "importSuccess": "¡Importación completada exitosamente!",
+    "locationDetected": "Ubicación actual detectada",
+    "audioRecorded": "Grabación de audio completada",
+    "imageProcessed": "Imagen procesada exitosamente"
+  },
+  "time": {
+    "now": "ahora",
+    "minute": "minuto",
+    "minutes": "minutos",
+    "hour": "hora",
+    "hours": "horas",
+    "day": "día",
+    "days": "días",
+    "week": "semana",
+    "weeks": "semanas",
+    "month": "mes",
+    "months": "meses",
+    "year": "año",
+    "years": "años",
+    "ago": "hace",
+    "justNow": "ahora mismo",
+    "today": "hoy",
+    "yesterday": "ayer"
+  },
+  "errors": {
+    "required": "Este campo es requerido",
+    "tooLong": "Demasiado largo (máx {{max}} caracteres)",
+    "tooShort": "Demasiado corto (mín {{min}} caracteres)",
+    "invalidFormat": "Formato inválido",
+    "networkError": "Error de red. Por favor verifica tu conexión.",
+    "storageQuotaExceeded": "Cuota de almacenamiento excedida. Por favor libera espacio.",
+    "fileTooBig": "Archivo demasiado grande (máx {{max}}MB)",
+    "unsupportedFileType": "Tipo de archivo no compatible"
+  }
+}

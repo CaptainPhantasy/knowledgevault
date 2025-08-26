@@ -1,0 +1,179 @@
+{
+  "app": {
+    "title": "KnowledgeVault",
+    "subtitle": "احفظ المعرفة إلى الأبد",
+    "loading": "جاري تشغيل KnowledgeVault...",
+    "description": "منصة مفتوحة المصدر لحفظ المعرفة"
+  },
+  "nav": {
+    "create": "إنشاء",
+    "search": "بحث",
+    "explore": "استكشاف",
+    "export": "تصدير",
+    "install": "تثبيت",
+    "home": "الرئيسية",
+    "about": "حول"
+  },
+  "views": {
+    "create": {
+      "title": "إنشاء مدخل معرفة جديد",
+      "subtitle": "احفظ المعرفة بأشكال متعددة"
+    },
+    "search": {
+      "title": "البحث في المعرفة",
+      "subtitle": "ابحث عن معرفتك المحفوظة بسرعة"
+    },
+    "explore": {
+      "title": "استكشاف المعرفة",
+      "subtitle": "اكتشف معرفتك جغرافياً وزمنياً"
+    },
+    "export": {
+      "title": "تصدير المعرفة",
+      "subtitle": "انسخ احتياطياً وشارك معرفتك بأشكال مختلفة"
+    }
+  },
+  "form": {
+    "title": "العنوان",
+    "titlePlaceholder": "أدخل عنواناً وصفياً",
+    "content": "المحتوى",
+    "contentPlaceholder": "أدخل محتوى المعرفة...",
+    "category": "التصنيف",
+    "categoryPlaceholder": "اختر التصنيف",
+    "language": "اللغة",
+    "tags": "الوسوم",
+    "tagsPlaceholder": "أدخل الوسوم مفصولة بفواصل",
+    "tagsHelp": "استخدم الوسوم لجعل معرفتك أسهل في الإيجاد",
+    "save": "حفظ المعرفة",
+    "saveDraft": "حفظ مسودة",
+    "required": "حقل مطلوب",
+    "charCount": "{{count}} / {{max}}"
+  },
+  "categories": {
+    "": "اختر التصنيف",
+    "personal": "شخصي",
+    "education": "تعليم",
+    "research": "بحث",
+    "tutorial": "دليل إرشادي",
+    "documentation": "توثيق",
+    "recipe": "وصفة",
+    "memory": "ذكرى",
+    "other": "أخرى"
+  },
+  "languages": {
+    "": "جميع اللغات",
+    "en": "الإنجليزية",
+    "es": "الإسبانية",
+    "zh": "الصينية",
+    "ar": "العربية",
+    "hi": "الهندية"
+  },
+  "media": {
+    "attachments": "المرفقات",
+    "addImage": "إضافة صورة",
+    "recordAudio": "تسجيل صوتي",
+    "addLocation": "إضافة موقع",
+    "generateQR": "إنشاء رمز QR",
+    "detectLocation": "تحديد الموقع الحالي",
+    "searchLocation": "البحث عن موقع..."
+  },
+  "search": {
+    "placeholder": "ابحث في معرفتك...",
+    "filters": "المرشحات",
+    "allCategories": "جميع التصنيفات",
+    "allLanguages": "جميع اللغات",
+    "fromDate": "من تاريخ",
+    "toDate": "إلى تاريخ",
+    "noResults": "لم يتم العثور على مدخلات معرفة تطابق بحثك.",
+    "createFirst": "إنشاء أول مدخل لك"
+  },
+  "explore": {
+    "mapView": "عرض الخريطة",
+    "timeline": "الخط الزمني",
+    "statistics": "الإحصائيات",
+    "totalEntries": "إجمالي المدخلات",
+    "totalCategories": "التصنيفات",
+    "totalLanguages": "اللغات",
+    "thisMonth": "هذا الشهر"
+  },
+  "export": {
+    "jsonTitle": "تصدير JSON",
+    "jsonDescription": "نسخة احتياطية كاملة من جميع بياناتك",
+    "csvTitle": "تصدير CSV",
+    "csvDescription": "صيغة متوافقة مع الجداول الإلكترونية",
+    "htmlTitle": "تصدير HTML",
+    "htmlDescription": "موقع ويب ثابت يحتوي على جميع معرفتك",
+    "ipfsTitle": "تخزين IPFS",
+    "ipfsDescription": "تخزين لامركزي ودائم",
+    "qrTitle": "رمز QR",
+    "qrDescription": "شارك مدخلات محددة عبر رمز QR",
+    "importTitle": "استيراد المعرفة",
+    "selectEntry": "اختر مدخلاً...",
+    "importFile": "استيراد ملف JSON",
+    "storeIPFS": "حفظ في IPFS"
+  },
+  "status": {
+    "online": "متصل",
+    "offline": "غير متصل",
+    "syncing": "جاري المزامنة",
+    "saved": "محفوظ",
+    "draft": "مسودة"
+  },
+  "actions": {
+    "edit": "تحرير",
+    "delete": "حذف",
+    "export": "تصدير",
+    "search": "بحث",
+    "close": "إغلاق",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "save": "حفظ",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق"
+  },
+  "messages": {
+    "saved": "تم حفظ المعرفة بنجاح!",
+    "updated": "تم تحديث المعرفة بنجاح!",
+    "deleted": "تم حذف المعرفة",
+    "draftSaved": "تم حفظ المسودة تلقائياً",
+    "error": "حدث خطأ",
+    "storageError": "خطأ في التخزين: {{message}}",
+    "validationError": "يرجى تصحيح: {{errors}}",
+    "browserNotSupported": "متصفح غير مدعوم. يرجى استخدام متصفح حديث.",
+    "initializationFailed": "فشل في تشغيل التطبيق. يرجى تحديث الصفحة.",
+    "exportSuccess": "تم التصدير بنجاح!",
+    "importSuccess": "تم الاستيراد بنجاح!",
+    "locationDetected": "تم تحديد الموقع الحالي",
+    "audioRecorded": "تم التسجيل الصوتي",
+    "imageProcessed": "تمت معالجة الصورة بنجاح"
+  },
+  "time": {
+    "now": "الآن",
+    "minute": "دقيقة",
+    "minutes": "دقائق",
+    "hour": "ساعة",
+    "hours": "ساعات",
+    "day": "يوم",
+    "days": "أيام",
+    "week": "أسبوع",
+    "weeks": "أسابيع",
+    "month": "شهر",
+    "months": "أشهر",
+    "year": "سنة",
+    "years": "سنوات",
+    "ago": "منذ",
+    "justNow": "الآن للتو",
+    "today": "اليوم",
+    "yesterday": "أمس"
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "tooLong": "طويل جداً (الحد الأقصى {{max}} حرف)",
+    "tooShort": "قصير جداً (الحد الأدنى {{min}} حرف)",
+    "invalidFormat": "صيغة غير صالحة",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "storageQuotaExceeded": "تم تجاوز حد التخزين. يرجى تحرير مساحة.",
+    "fileTooBig": "الملف كبير جداً (الحد الأقصى {{max}}ميجابايت)",
+    "unsupportedFileType": "نوع ملف غير مدعوم"
+  }
+}

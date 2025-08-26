@@ -1,0 +1,179 @@
+{
+  "app": {
+    "title": "KnowledgeVault",
+    "subtitle": "Preserve Knowledge Forever",
+    "loading": "Initializing KnowledgeVault...",
+    "description": "Open-source knowledge preservation platform"
+  },
+  "nav": {
+    "create": "Create",
+    "search": "Search",
+    "explore": "Explore",
+    "export": "Export",
+    "install": "Install",
+    "home": "Home",
+    "about": "About"
+  },
+  "views": {
+    "create": {
+      "title": "Create New Knowledge Entry",
+      "subtitle": "Capture and preserve knowledge in multiple formats"
+    },
+    "search": {
+      "title": "Search Knowledge",
+      "subtitle": "Find your preserved knowledge quickly"
+    },
+    "explore": {
+      "title": "Explore Knowledge",
+      "subtitle": "Discover your knowledge geographically and chronologically"
+    },
+    "export": {
+      "title": "Export Knowledge",
+      "subtitle": "Backup and share your knowledge in various formats"
+    }
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter a descriptive title",
+    "content": "Content",
+    "contentPlaceholder": "Enter your knowledge content...",
+    "category": "Category",
+    "categoryPlaceholder": "Select category",
+    "language": "Language",
+    "tags": "Tags",
+    "tagsPlaceholder": "Enter tags separated by commas",
+    "tagsHelp": "Use tags to make your knowledge easier to find",
+    "save": "Save Knowledge",
+    "saveDraft": "Save Draft",
+    "required": "Required field",
+    "charCount": "{{count}} / {{max}}"
+  },
+  "categories": {
+    "": "Select category",
+    "personal": "Personal",
+    "education": "Education",
+    "research": "Research",
+    "tutorial": "Tutorial",
+    "documentation": "Documentation",
+    "recipe": "Recipe",
+    "memory": "Memory",
+    "other": "Other"
+  },
+  "languages": {
+    "": "All Languages",
+    "en": "English",
+    "es": "Español",
+    "zh": "-‡",
+    "ar": "'D91(J)",
+    "hi": "9?&@"
+  },
+  "media": {
+    "attachments": "Attachments",
+    "addImage": "Add Image",
+    "recordAudio": "Record Audio",
+    "addLocation": "Add Location",
+    "generateQR": "Generate QR",
+    "detectLocation": "Detect Current Location",
+    "searchLocation": "Search for a location..."
+  },
+  "search": {
+    "placeholder": "Search your knowledge...",
+    "filters": "Filters",
+    "allCategories": "All Categories",
+    "allLanguages": "All Languages",
+    "fromDate": "From date",
+    "toDate": "To date",
+    "noResults": "No knowledge entries found matching your search.",
+    "createFirst": "Create Your First Entry"
+  },
+  "explore": {
+    "mapView": "Map View",
+    "timeline": "Timeline",
+    "statistics": "Statistics",
+    "totalEntries": "Total Entries",
+    "totalCategories": "Categories",
+    "totalLanguages": "Languages",
+    "thisMonth": "This Month"
+  },
+  "export": {
+    "jsonTitle": "JSON Export",
+    "jsonDescription": "Complete backup of all your data",
+    "csvTitle": "CSV Export",
+    "csvDescription": "Spreadsheet-friendly format",
+    "htmlTitle": "HTML Export",
+    "htmlDescription": "Static website with all your knowledge",
+    "ipfsTitle": "IPFS Storage",
+    "ipfsDescription": "Decentralized, permanent storage",
+    "qrTitle": "QR Code",
+    "qrDescription": "Share specific entries via QR code",
+    "importTitle": "Import Knowledge",
+    "selectEntry": "Select an entry...",
+    "importFile": "Import JSON File",
+    "storeIPFS": "Store on IPFS"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "syncing": "Syncing",
+    "saved": "Saved",
+    "draft": "Draft"
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "export": "Export",
+    "search": "Search",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "messages": {
+    "saved": "Knowledge saved successfully!",
+    "updated": "Knowledge updated successfully!",
+    "deleted": "Knowledge deleted",
+    "draftSaved": "Draft saved automatically",
+    "error": "An error occurred",
+    "storageError": "Storage error: {{message}}",
+    "validationError": "Please fix: {{errors}}",
+    "browserNotSupported": "Browser not supported. Please use a modern browser.",
+    "initializationFailed": "Failed to initialize application. Please refresh the page.",
+    "exportSuccess": "Export completed successfully!",
+    "importSuccess": "Import completed successfully!",
+    "locationDetected": "Current location detected",
+    "audioRecorded": "Audio recording completed",
+    "imageProcessed": "Image processed successfully"
+  },
+  "time": {
+    "now": "now",
+    "minute": "minute",
+    "minutes": "minutes",
+    "hour": "hour",
+    "hours": "hours",
+    "day": "day",
+    "days": "days",
+    "week": "week",
+    "weeks": "weeks",
+    "month": "month",
+    "months": "months",
+    "year": "year",
+    "years": "years",
+    "ago": "ago",
+    "justNow": "just now",
+    "today": "today",
+    "yesterday": "yesterday"
+  },
+  "errors": {
+    "required": "This field is required",
+    "tooLong": "Too long (max {{max}} characters)",
+    "tooShort": "Too short (min {{min}} characters)",
+    "invalidFormat": "Invalid format",
+    "networkError": "Network error. Please check your connection.",
+    "storageQuotaExceeded": "Storage quota exceeded. Please free up space.",
+    "fileTooBig": "File too large (max {{max}}MB)",
+    "unsupportedFileType": "Unsupported file type"
+  }
+}

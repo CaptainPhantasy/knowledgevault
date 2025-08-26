@@ -1,0 +1,431 @@
+/* Print Styles for KnowledgeVault */
+/* Optimize for print output and PDF generation */
+
+@media print {
+    /* Reset and base styles */
+    * {
+        background: transparent !important;
+        color: black !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+
+    /* Page setup */
+    @page {
+        margin: 2cm;
+        size: A4;
+    }
+
+    /* Body */
+    body {
+        font-family: "Times New Roman", Times, serif !important;
+        font-size: 12pt !important;
+        line-height: 1.5 !important;
+        color: black !important;
+        background: white !important;
+    }
+
+    /* Hide non-essential elements */
+    .no-print,
+    .app-header,
+    .main-nav,
+    .header-actions,
+    .loading-screen,
+    .modal,
+    .toast-container,
+    .media-controls,
+    .form-actions,
+    .export-actions,
+    .import-controls,
+    .search-filters,
+    .explore-controls,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger,
+    .install-btn,
+    .status-indicator {
+        display: none !important;
+    }
+
+    /* Main content */
+    .main-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    /* Views - only show active view */
+    .view {
+        display: none !important;
+        page-break-inside: avoid;
+    }
+
+    .view.active {
+        display: block !important;
+    }
+
+    /* View headers */
+    .view-header h2 {
+        font-size: 18pt !important;
+        font-weight: bold !important;
+        margin-bottom: 10pt !important;
+        border-bottom: 1px solid black;
+        padding-bottom: 5pt;
+    }
+
+    .view-header p {
+        font-size: 10pt !important;
+        margin-bottom: 20pt !important;
+        font-style: italic;
+    }
+
+    /* Knowledge entries */
+    .knowledge-entry {
+        page-break-inside: avoid;
+        margin-bottom: 20pt !important;
+        border: 1px solid black;
+        padding: 10pt;
+    }
+
+    .knowledge-entry h3 {
+        font-size: 14pt !important;
+        font-weight: bold !important;
+        margin-bottom: 8pt !important;
+    }
+
+    .knowledge-entry .content {
+        font-size: 11pt !important;
+        line-height: 1.4 !important;
+        margin-bottom: 8pt !important;
+    }
+
+    .knowledge-entry .metadata {
+        font-size: 9pt !important;
+        color: #666 !important;
+        border-top: 1px solid #ccc;
+        padding-top: 5pt;
+        margin-top: 8pt;
+    }
+
+    /* Form elements for create view */
+    .knowledge-form {
+        page-break-inside: avoid;
+    }
+
+    .form-group {
+        margin-bottom: 15pt !important;
+        page-break-inside: avoid;
+    }
+
+    .form-group label {
+        font-size: 10pt !important;
+        font-weight: bold !important;
+        display: block !important;
+        margin-bottom: 3pt !important;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        font-size: 11pt !important;
+        border: 1px solid black !important;
+        padding: 2pt !important;
+        width: 100% !important;
+        background: white !important;
+        color: black !important;
+    }
+
+    .form-group textarea {
+        min-height: 100pt !important;
+    }
+
+    /* Search results */
+    .search-results {
+        page-break-inside: avoid;
+    }
+
+    .search-result-item {
+        page-break-inside: avoid;
+        margin-bottom: 15pt !important;
+        padding: 8pt !important;
+        border-left: 3pt solid black;
+        padding-left: 10pt !important;
+    }
+
+    .search-result-item h4 {
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        margin-bottom: 5pt !important;
+    }
+
+    .search-result-item .excerpt {
+        font-size: 10pt !important;
+        margin-bottom: 5pt !important;
+    }
+
+    .search-result-item .tags {
+        font-size: 9pt !important;
+        font-style: italic;
+    }
+
+    /* Statistics */
+    .stats-grid {
+        display: block !important;
+    }
+
+    .stat-card {
+        display: inline-block !important;
+        width: 24% !important;
+        margin-right: 1% !important;
+        text-align: center !important;
+        border: 1px solid black;
+        padding: 5pt !important;
+        margin-bottom: 10pt !important;
+    }
+
+    .stat-card h3 {
+        font-size: 10pt !important;
+        font-weight: bold !important;
+        margin-bottom: 3pt !important;
+    }
+
+    .stat-number {
+        font-size: 14pt !important;
+        font-weight: bold !important;
+    }
+
+    /* Tables */
+    table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        margin-bottom: 15pt !important;
+        page-break-inside: avoid;
+    }
+
+    th, td {
+        border: 1px solid black !important;
+        padding: 5pt !important;
+        text-align: left !important;
+        font-size: 10pt !important;
+    }
+
+    th {
+        font-weight: bold !important;
+        background: #f0f0f0 !important;
+    }
+
+    /* Lists */
+    ul, ol {
+        margin-bottom: 10pt !important;
+    }
+
+    li {
+        margin-bottom: 3pt !important;
+        font-size: 11pt !important;
+    }
+
+    /* Code blocks */
+    pre, code {
+        font-family: "Courier New", monospace !important;
+        font-size: 10pt !important;
+        border: 1px solid black;
+        padding: 5pt !important;
+        background: #f9f9f9 !important;
+        page-break-inside: avoid;
+    }
+
+    /* Links */
+    a {
+        color: black !important;
+        text-decoration: underline !important;
+    }
+
+    a:after {
+        content: " (" attr(href) ")" !important;
+        font-size: 9pt !important;
+        color: #666 !important;
+    }
+
+    /* Images */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        page-break-inside: avoid;
+        margin: 10pt 0 !important;
+    }
+
+    /* Page breaks */
+    .page-break {
+        page-break-before: always !important;
+    }
+
+    .avoid-break {
+        page-break-inside: avoid !important;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 20pt !important;
+        font-weight: bold !important;
+        margin-bottom: 15pt !important;
+        page-break-after: avoid;
+    }
+
+    h2 {
+        font-size: 16pt !important;
+        font-weight: bold !important;
+        margin-bottom: 12pt !important;
+        page-break-after: avoid;
+    }
+
+    h3 {
+        font-size: 14pt !important;
+        font-weight: bold !important;
+        margin-bottom: 10pt !important;
+        page-break-after: avoid;
+    }
+
+    h4 {
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        margin-bottom: 8pt !important;
+        page-break-after: avoid;
+    }
+
+    /* Paragraphs */
+    p {
+        margin-bottom: 8pt !important;
+        font-size: 11pt !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Export view specific */
+    .export-card {
+        page-break-inside: avoid;
+        margin-bottom: 15pt !important;
+        padding: 10pt !important;
+        border: 1px solid black;
+    }
+
+    .export-card h3 {
+        font-size: 13pt !important;
+        font-weight: bold !important;
+        margin-bottom: 5pt !important;
+    }
+
+    .export-card p {
+        font-size: 10pt !important;
+        margin-bottom: 8pt !important;
+    }
+
+    /* QR display */
+    .qr-display {
+        text-align: center !important;
+        page-break-inside: avoid;
+        margin: 10pt 0 !important;
+    }
+
+    /* Timeline items */
+    .timeline-item {
+        page-break-inside: avoid;
+        margin-bottom: 10pt !important;
+        padding-left: 15pt !important;
+        border-left: 2pt solid black;
+    }
+
+    .timeline-date {
+        font-size: 9pt !important;
+        font-weight: bold !important;
+        margin-bottom: 3pt !important;
+    }
+
+    .timeline-content {
+        font-size: 10pt !important;
+    }
+
+    /* Map containers - hide for print */
+    .map-container,
+    .explore-map,
+    .location-map,
+    #explore-map,
+    #location-map,
+    .leaflet-container {
+        display: none !important;
+    }
+
+    /* Media previews */
+    .media-previews {
+        page-break-inside: avoid;
+        margin: 10pt 0 !important;
+    }
+
+    .media-preview {
+        display: inline-block !important;
+        margin: 5pt !important;
+        border: 1px solid black;
+        padding: 5pt !important;
+        max-width: 100pt !important;
+    }
+
+    /* Footer for printed pages */
+    .print-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 9pt !important;
+        text-align: center;
+        border-top: 1px solid black;
+        padding-top: 5pt;
+        background: white !important;
+    }
+
+    /* Header for printed pages */
+    .print-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 10pt !important;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding-bottom: 5pt;
+        background: white !important;
+        margin-bottom: 20pt !important;
+    }
+
+    /* Ensure good contrast */
+    .muted,
+    .text-muted {
+        color: #333 !important;
+    }
+
+    /* Charts and graphs - replace with textual representation */
+    canvas,
+    .chart-container {
+        display: none !important;
+    }
+
+    /* Print-specific content */
+    .print-only {
+        display: block !important;
+    }
+
+    /* RTL support for Arabic */
+    .rtl {
+        direction: rtl !important;
+        text-align: right !important;
+    }
+
+    .rtl .knowledge-entry {
+        border-right: 3pt solid black;
+        border-left: none;
+        padding-right: 10pt !important;
+        padding-left: 8pt !important;
+    }
+}

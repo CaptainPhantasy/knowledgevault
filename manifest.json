@@ -1,0 +1,186 @@
+{
+  "name": "KnowledgeVault",
+  "short_name": "KnowledgeVault",
+  "description": "Open-source knowledge preservation platform. Capture, organize, and preserve knowledge forever with zero server costs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "education", "utilities"],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "KnowledgeVault desktop view"
+    },
+    {
+      "src": "assets/screenshots/mobile.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "KnowledgeVault mobile view"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create Knowledge",
+      "short_name": "Create",
+      "description": "Create a new knowledge entry",
+      "url": "/?view=create",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-create.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Search Knowledge",
+      "short_name": "Search",
+      "description": "Search your knowledge base",
+      "url": "/?view=search",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-search.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Explore Map",
+      "short_name": "Explore",
+      "description": "Explore knowledge on map",
+      "url": "/?view=explore",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-explore.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Export Data",
+      "short_name": "Export",
+      "description": "Export and backup knowledge",
+      "url": "/?view=export",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-export.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "application/json": [".json"],
+        "text/plain": [".txt", ".md"],
+        "text/csv": [".csv"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+knowledgevault",
+      "url": "/?import=%s"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "display_override": ["window-controls-overlay", "minimal-ui", "standalone", "browser"],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "permissions": [
+    "geolocation",
+    "notifications",
+    "persistent-storage"
+  ],
+  "features": [
+    "Cross Platform",
+    "Fast",
+    "Offline",
+    "Installable"
+  ]
+}
